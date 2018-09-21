@@ -1,0 +1,68 @@
+body{
+    height: 100%;
+    background: url('../images/reception-2507752_1920.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.welcome{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkorange;
+}
+.home-and-logout{
+	list-style: none;
+	font-weight: bold;
+	padding: 10px 10px;
+
+}
+.home-and-logout a{
+	/*color: red;*/
+}
+#back{
+	float: left;
+}
+#logout, #login{
+	float: right;
+}
+.crud-oper{
+	list-style: none;
+	padding: 15px;
+	font-weight: bold;
+	opacity: 0.8;
+	background: #fff;
+    border-radius: 35px;
+    height: auto;
+    width: fit-content;
+}
+.crud-oper li a{
+    color: darkorange;
+}
+.fu{
+	width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	background: #fff;
+    border-radius: 35px;
+    height: auto;
+    width: fit-content;
+    margin-bottom: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+    color: dimgrey;
+}
+
+.notFound{
+	color: red;
+	padding: 15px;
+}
+
+button.bdra19 {
+    border-radius: 19px;
+}
